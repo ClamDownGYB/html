@@ -6,9 +6,17 @@ body {
   border-color:        white;
   border-width:        1px;
   border-style:        dashed;
-  background-color:    #a7cece;
-  padding:             25px;
+  background-color:     aquamarine;
   margin:              30px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding: 25px;
+  padding-left: 80px;
+  margin-right: 250px;
+  background-image: url(images/background.gif);
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-size: 5vw;
 }
 h1, h2 {
 	color: #007e7e;
@@ -20,4 +28,7 @@ h1 {
 
 h2 {
 	font-size: 1.3em;
+}
+footer {   
+	font-size: 5vw; 
 }
